@@ -17,8 +17,7 @@ def main():
     # Read environment variables
     # Call build_model from ml_component
     # Upload model to S3
-    # Save metadata to MongoDB
-    # Fetch tenant and project metadata records
+    # Save metadata to MongoDB    
     app.run(debug=True, use_reloader=True)
 
 if __name__ == "__main__":
